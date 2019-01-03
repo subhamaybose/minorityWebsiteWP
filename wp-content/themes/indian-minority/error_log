@@ -1,0 +1,1 @@
+[01-Dec-2018 18:58:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/indianminority/public_html/wp-content/themes/indian-minority/404.php on line 1

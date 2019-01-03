@@ -1,0 +1,217 @@
+.skdslider{
+ height: 270px;
+ margin:0;
+ position: relative;
+}
+.skdslider2{
+ min-height: 275px;
+ /*width:214px;*/
+ margin:0;
+ position: relative;
+ border:3px solid #fff;
+	-webkit-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-ms-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-o-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	box-shadow:0 0 2px rgba(0,0,0,0.3);
+}
+.skdslider3{
+ width:100%;
+ height:110px;
+overflow:hidden;
+ margin:0;
+ position: relative;
+ border:3px solid #fff;
+	-webkit-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-ms-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-o-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	box-shadow:0 0 2px rgba(0,0,0,0.3);
+}
+.skdslider ul.slides, .skdslider2 ul.slides{ margin:0; padding:0; list-style-type:none;}
+
+.skdslider ul.slides li, .skdslider2 ul.slides li
+{
+   height: 270px;
+   left: 0;
+   position: absolute;
+   top: 0;
+   display: none;
+   width:100%;
+}
+.skdslider2 ul.slides li {
+ min-height: 275px;
+ /*width:214px;*/
+}
+.skdslider ul.slides li img, .skdslider2 ul.slides li img{
+    width: 100%;
+	height:100%;
+	border:0;
+}
+
+.skdslider .slide-navs {
+    bottom: 20px;
+    right: 2%;
+    position: absolute;
+	list-style-type: none;
+	 margin: 0;
+    padding: 0;
+}
+
+
+.skdslider .slide-navs li {
+    float: left;
+	background: url("image/slide-bg.png") no-repeat scroll 0 0 transparent;
+	height:12px;
+	width:12px;
+	margin-right:8px;
+	cursor:pointer;
+}
+.skdslider .slide-navs li.current-slide {
+  background: url("image/slide-bg-active.png") no-repeat scroll 0 0 transparent;
+}
+.skdslider .slide-desc {
+    /*background: url("image/slide_desc.png") repeat scroll 0 0 transparent;*/
+    background:transparent;
+    left: 0;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 0;
+    /*width: 50%;*/
+}
+.skdslider .slide-desc > h1 {
+    color: #CFDB0C;
+	font-family: 'ELEPHNT';
+    font-size: 45px;
+	line-height:30px;
+	color:#F00;
+    /*margin-bottom: 10px;*/
+}
+
+.skdslider .slide-desc > p {
+    color: #FFFFFF;
+    /*font-family: 'Play', sans-serif;*/
+	font-family:"Times New Roman", serif;
+    font-size: 24px;
+	color:#f1f1f1;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.skdslider .slide-desc > p a.more {
+    color:#990000;
+    /*font-family: 'Play', sans-serif;*/
+	font-family:"Times New Roman", serif;
+	font-size:18px;
+	color:#ffffff;
+	text-decoration:none;
+}
+.skdslider .slide-desc > p a.more:hover {
+text-decoration:underline;
+}
+
+.skdslider a.prev{
+    background: url("image/left.png") no-repeat scroll 0 0 transparent;
+	width:35px;
+	height:35px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	left:2%;
+	
+}
+.skdslider2 a.prev{
+    background: url("image/left.png") no-repeat scroll 0 0 transparent;
+	width:35px;
+	height:35px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	left:2%;
+	
+}
+
+.skdslider a.next{
+    background: url("image/right.png") no-repeat scroll 0 0 transparent;
+	width:35px;
+	height:35px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	right:2%;
+	
+}
+.skdslider2 a.next{
+    background: url("image/right.png") no-repeat scroll 0 0 transparent;
+	width:35px;
+	height:35px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	right:2%;
+	
+}
+.skdslider a.prev:hover{
+  
+}
+.skdslider a.next:hover{
+  
+}
+
+.skdslider a.play{
+    background: url("image/play.png") no-repeat scroll center center #e1e1e1;
+	width:35px;
+	height:35px;
+	display:none;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	left:48%;
+	
+}
+
+.skdslider a.pause{
+    background: url("image/pause.png") no-repeat scroll center center #e1e1e1;
+	width:35px;
+	height:35px;
+	display:none;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	left:48%;
+	
+}
+.skdslider3 ul.slides li img{
+    width: 100%;
+	border:0;
+}
+
+
+@media (max-width: 970px) {
+.skdslider2{
+ height:198px;
+ margin:0;
+ position: relative;
+ border:3px solid #fff;
+	-webkit-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-ms-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-o-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	box-shadow:0 0 2px rgba(0,0,0,0.3);
+}
+.skdslider2 ul.slides li {
+ height:198px;
+}
+.skdslider2 ul.slides li img{
+    width: 100%;
+	height:100%;
+	border:0;
+}
+.skdslider3 ul.slides li img{
+    width: 100%;
+	border:0;
+}
+}

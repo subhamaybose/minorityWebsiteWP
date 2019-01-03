@@ -1,0 +1,17 @@
+[06-Feb-2018 10:34:22 UTC] PHP Warning:  Error while sending QUERY packet. PID=813349 in /home/dtechsystem/public_html/dtechsystem.net/dev/wp-includes/wp-db.php on line 1924
+[26-Jun-2018 07:26:15 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 3072 bytes) in /home/iphk/public_html/wp-admin/includes/deprecated.php on line 1174
+[26-Jun-2018 07:26:21 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 1024 bytes) in /home/iphk/public_html/wp-includes/capabilities.php on line 894
+[26-Jun-2018 07:26:24 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 1024 bytes) in /home/iphk/public_html/wp-includes/capabilities.php on line 894
+[26-Jun-2018 07:26:51 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 1024 bytes) in /home/iphk/public_html/wp-includes/capabilities.php on line 894
+[26-Jun-2018 07:29:01 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 12288 bytes) in /home/iphk/public_html/wp-admin/includes/ajax-actions.php on line 2378
+[26-Jun-2018 07:29:01 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 12288 bytes) in /home/iphk/public_html/wp-admin/includes/ajax-actions.php on line 2378
+[26-Jun-2018 07:29:10 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 3072 bytes) in /home/iphk/public_html/wp-content/plugins/types/vendor/toolset/types/includes/classes/page/edit/termmeta.php on line 65
+[26-Jun-2018 07:30:23 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 440305 bytes) in /home/iphk/public_html/wp-includes/wp-db.php on line 3122
+[26-Jun-2018 07:32:24 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 220153 bytes) in /home/iphk/public_html/wp-includes/wp-db.php on line 3119
+[26-Jun-2018 07:33:06 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 440305 bytes) in /home/iphk/public_html/wp-includes/wp-db.php on line 3122
+[26-Jun-2018 07:33:30 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 49152 bytes) in /home/iphk/public_html/wp-admin/includes/file.php on line 812
+[26-Jun-2018 10:24:21 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/iphk/public_html/wp-content/themes/indian-minority/functions.php on line 527
+[26-Jun-2018 10:24:23 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/iphk/public_html/wp-content/themes/indian-minority/functions.php on line 527
+[26-Oct-2018 11:48:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/indianminority/public_html/wp-content/themes/indian-minority/functions.php on line 257
+[15-Nov-2018 17:05:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/indianminority/public_html/wp-content/themes/indian-minority/functions.php on line 520
+[14-Dec-2018 00:15:21 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/indianminority/public_html/wp-admin/admin-functions.php on line 12
